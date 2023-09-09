@@ -31,11 +31,11 @@ function MyInfo() {
                <Link to="https://github.com/MAjay2" target='_blank'><AiFillGithub className='mr-10  text-3xl  text-white'/></Link>
                <Link to="https://www.linkedin.com/in/michael-adjei-3a986422a/" target='_blank'> <BsLinkedin className='mr-10  text-3xl text-white'/></Link>
                <Link> <SiGmail className=' mr-10  text-3xl text-white'/></Link>
-                <Link><AiOutlineWhatsApp className='mr-10 z-40 text-3xl text-white'/></Link>
+                <Link><AiOutlineWhatsApp className='mr-20 z-40 text-3xl text-white'/></Link>
             </div>
 
             <div>
-                <img src="/image.jpg" className='h-[700]  w-96 relative  lg:-top-16 lg:left-60 sm:-top-16 sm:left-20 -top-0 ' alt="" />
+                <img src="/image.jpg" className='h-[700]  w-96 relative  md:w-72 lg:-top-16 lg:left-60 sm:-top-16 sm:left-20 -top-0 ' alt="" />
                 <img src="/Oval.png" className='absolute top-80 right-0 xl:hidden' alt="" />
                 <img src="/fulloval.png" className='hidden z-40 md:hidden lg:hidden xl:block absolute fixed top-80 right-80 mr-44' alt="" />
             </div>

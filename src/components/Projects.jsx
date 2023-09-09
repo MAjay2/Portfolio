@@ -4,7 +4,7 @@ import Card from './Card';
 function Projects() {
   return (
     <>
-      <div className='bg-black text-white flex py-10 justify-between  px-20'>
+      <div className='bg-black text-white flex py-10 justify-between  '>
       <h1 className='text-6xl font-bold  '>Projects</h1>
         <button className=" font-test h-[40px] border-b border-b-green-500 border-b-4">
           CONTACT ME
@@ -12,7 +12,7 @@ function Projects() {
         </div>
       
 
-      <div className=' grid place-items-center   bg-black text-white grid-cols-1 md:grid-cols-2  '>
+      <div className=' grid place-items-center   bg-black text-white grid-cols-1 sm:grid-cols-1 md:grid-cols-1s lg:grid-cols-2 '>
       
        
         <Card img="/1.png" siteUrl="https://profound-dusk-a82b40.netlify.app" codeUrl="https://github.com/MAjay2/calendly.git" appName="Calendly" languages="HTML CSS JAVASCRIPT"/>

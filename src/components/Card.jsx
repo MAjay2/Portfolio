@@ -18,7 +18,7 @@ function Card({img,appName,languages,siteUrl,codeUrl}) {
         className=' w-[345px] flex justify-center h-[253px] md:w-[540px] md:h-[400px] sm:w-[346px] sm:h-[253px]'
         style={{
           backgroundImage: (`url(${img}`),
-          backgroundSize: 'cover',
+          backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           filter: buttonDisplay ? 'brightness(50%)' : 'none',
         }}
