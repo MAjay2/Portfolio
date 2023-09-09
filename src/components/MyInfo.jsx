@@ -28,7 +28,7 @@ function MyInfo() {
 
         <div>
             <div className='   flex sm:justify-end   relative z-20 md:left-30 xl:left-5 lg:left-24 sm:left-28  '>
-               <Link to="https://github.com/MAjay2"><AiFillGithub className='mr-10  text-3xl  text-white'/></Link>
+               <Link to="https://github.com/MAjay2" target='_blank'><AiFillGithub className='mr-10  text-3xl  text-white'/></Link>
                <Link to="https://www.linkedin.com/in/michael-adjei-3a986422a/" target='_blank'> <BsLinkedin className='mr-10  text-3xl text-white'/></Link>
                <Link> <SiGmail className=' mr-10  text-3xl text-white'/></Link>
                 <Link><AiOutlineWhatsApp className='mr-10 z-40 text-3xl text-white'/></Link>

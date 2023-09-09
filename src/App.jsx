@@ -10,7 +10,7 @@ function App() {
   
 
   return (
-    <div className='  bg-black'>
+    <div className='  bg-black  mx-auto p-10'>
      <MyInfo/>
      <Skills />
      <Projects/>
