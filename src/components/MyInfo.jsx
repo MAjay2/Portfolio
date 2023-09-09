@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom'
 
 function MyInfo() {
   return (
-    <div className='px-40 '>
+    <div className=' '>
 
         <h1 className='  sm:hidden text-white text-4xl  relative font-test z-10 pb-10'>Michaeladjei</h1>
-        <img className=' absolute left-10 mt-20 z-50 ' src="/public/Ovalmany.png" alt="" />
+        <img className=' absolute left-10 mt-20 z-50 ' src="/Ovalmany.png" alt="" />
     <div className='sm:grid sm:grid-cols-1 flex flex-col-reverse   md:grid-cols-2 bg-black  '>
         <div className='lg:w-[800px] md:w-[400px]   '>
         <h1 className='hidden sm:block text-white text-4xl  relative font-test z-10 pb-10'>Michaeladjei</h1>
@@ -35,9 +35,9 @@ function MyInfo() {
             </div>
 
             <div>
-                <img src="public/image.jpg" className='h-[700]  w-96 relative  lg:-top-16 lg:left-60 sm:-top-16 sm:left-20 -top-0 ' alt="" />
-                <img src="public/Oval.png" className='absolute top-80 right-0 xl:hidden' alt="" />
-                <img src="public/fulloval.png" className='hidden z-40 md:hidden lg:hidden xl:block absolute fixed top-80 right-80 mr-44' alt="" />
+                <img src="/image.jpg" className='h-[700]  w-96 relative  lg:-top-16 lg:left-60 sm:-top-16 sm:left-20 -top-0 ' alt="" />
+                <img src="/Oval.png" className='absolute top-80 right-0 xl:hidden' alt="" />
+                <img src="/fulloval.png" className='hidden z-40 md:hidden lg:hidden xl:block absolute fixed top-80 right-80 mr-44' alt="" />
             </div>
 
 

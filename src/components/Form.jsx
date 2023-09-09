@@ -48,7 +48,7 @@ export default function Contact() {
 
       <Formik  initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
         {({errors,touched})=>(
-        <Form  className="mx-auto  min-w-[405px] flex flex-col">
+        <Form  className="mx-auto  w-[200px] sm:min-w-[405px] flex flex-col">
         <Field
           placeholder="NAME"
           className={`border-b text-white outline-none py-2 ${touched.name && 'border-green-500' }  border-white bg-neutral-900`}
