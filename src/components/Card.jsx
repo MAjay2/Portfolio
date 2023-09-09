@@ -28,12 +28,12 @@ function Card({img,appName,languages,siteUrl,codeUrl}) {
         <div className='flex flex-col justify-center items-center w-[300px] '>
           {buttonDisplay && (
             <>
-              <Link to={siteUrl}>
+              <Link to={siteUrl} target='_blank'>
               <button  className='w-[200px] mb-3 hover:text-green-500 font-test border-b border-b-green-500 border-b-4 text-white'>
                 VIEW PROJECT
               </button>
               </Link>
-              <Link to={codeUrl}>
+              <Link to={codeUrl} target='_blank'>
               <button  className='w-[200px] hover:text-green-500 font-test border-b border-b-green-500 border-b-4 text-white'>
                 VIEW CODE
               </button>

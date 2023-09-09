@@ -3,6 +3,7 @@ import {AiFillGithub} from 'react-icons/ai'
 import {BsLinkedin} from 'react-icons/bs'
 import {SiGmail} from 'react-icons/si'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 
 function MyInfo() {
@@ -27,14 +28,14 @@ function MyInfo() {
 
         <div>
             <div className='   flex sm:justify-end   relative z-20 md:left-30 xl:left-5 lg:left-24 sm:left-28  '>
-                <AiFillGithub className='mr-10  text-3xl  text-white'/>
-                <BsLinkedin className='mr-10  text-3xl text-white'/>
-                <SiGmail className=' mr-10  text-3xl text-white'/>
-                <AiOutlineWhatsApp className='mr-10 z-40 text-3xl text-white'/>
+               <Link to="https://github.com/MAjay2"><AiFillGithub className='mr-10  text-3xl  text-white'/></Link>
+               <Link to="https://www.linkedin.com/in/michael-adjei-3a986422a/" target='_blank'> <BsLinkedin className='mr-10  text-3xl text-white'/></Link>
+               <Link> <SiGmail className=' mr-10  text-3xl text-white'/></Link>
+                <Link><AiOutlineWhatsApp className='mr-10 z-40 text-3xl text-white'/></Link>
             </div>
 
             <div>
-                <img src="public/images/me.png" className='h-[700]  w-96 relative  lg:-top-16 lg:left-60 sm:-top-16 sm:left-20 -top-0 ' alt="" />
+                <img src="public/images/image.jpg" className='h-[700]  w-96 relative  lg:-top-16 lg:left-60 sm:-top-16 sm:left-20 -top-0 ' alt="" />
                 <img src="public/images/Oval.png" className='absolute top-80 right-0 xl:hidden' alt="" />
                 <img src="public/images/fulloval.png" className='hidden z-40 md:hidden lg:hidden xl:block absolute fixed top-80 right-80 mr-44' alt="" />
             </div>
