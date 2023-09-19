@@ -22,7 +22,7 @@ export default function Contact() {
     // console.log(values);
     resetForm()
 
-    emailjs.send("service_i7x66i2", "template_j8gbv04", values, "mGh5uc3Wi-PSGh6uF").then(
+    emailjs.send("service_otkq4d8", "template_hix426g", values, "cM7CgmdBnwjUu_s0O").then(
       (result) => {
         alert("Message Sent Successfully");
       

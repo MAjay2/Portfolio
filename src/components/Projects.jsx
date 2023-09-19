@@ -4,7 +4,7 @@ import Card from './Card';
 function Projects() {
   return (
     <>
-      <div className='bg-black text-white flex py-10 justify-between  '>
+      {/*<div className='bg-black text-white flex py-10 justify-between  '>
       <h1 className='text-6xl font-bold  '>Projects</h1>
         <button className=" font-test h-[40px] border-b border-b-green-500 border-b-4">
           CONTACT ME
@@ -21,7 +21,7 @@ function Projects() {
         <Card img="/4.png" siteUrl="https://zippy-valkyrie-03193e.netlify.app" codeUrl="https://github.com/MAjay2/devjobs-app.git" appName="Devjobs" languages="REACT JS"/>
         <Card img="/ecommerce.png" siteUrl="https://ecommerce-site-beige.vercel.app/" codeUrl="https://github.com/MAjay2/Ecommerce-site.git" appName="Ecommerce" languages="REACT JS"/>
         <Card img="/spin.png" siteUrl="https://spinthebottleklm.netlify.app/" codeUrl="https://github.com/blameleo/spin-the-bottle.git" appName="Spin the bottle" languages="HTML CSS JAVASCRIPT"/>
-        </div>
+        </div>*/}
       
     </>
   );

@@ -9,25 +9,25 @@ export default function Footer() {
       <div className=" sm:flex items-center justify-between ">
         <div className="sm:flex items-center">
           <h1 className="  relative z-20 text-center text-[24px] sm:text-[32px] py-5 font-black font-test">
-            MichaelAdjei
+            Steve Oduro-Amoyaw
           </h1>
-          <FaLaptopCode className="hidden sm:block text-3xl ml-2 text-primary-green" />
+          <FaLaptopCode className="hidden sm:block text-3xl ml-2 text-green-500" />
         </div>
 
         <div className=" flex w-[174px]  mx-auto sm:mx-0 sm:w-40 text-xl relative z-20 sm:justify-between justify-around   ">
           <Link to="https://github.com/MAjay2 " target="_blank">
-            <SiGithub className="hover:text-green-500"/>
+            {/*<SiGithub className="hover:text-green-500"/>*/}
           </Link>
 
           <Link
-            to="https://www.linkedin.com/in/michael-adjei-3a986422a/"
+            to="https://www.linkedin.com/in/steve-oduro-amoyaw-1956b3162/"
             target="_blank"
           >
             <SiLinkedin  className="hover:text-green-500"/>
           </Link>
 
           <Link
-            to="mailto:adjeimichael405@gmail.com?subject=Regarding%20your%20question"
+            to="mailto:steveamoyaw@outlook.com?subject=Regarding%20your%20question"
             target="_blank"
           >
             <SiGmail className="hover:text-green-500"/>
