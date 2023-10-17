@@ -8,12 +8,12 @@ function Experience() {
       <div className="relative wrap overflow-hidden p-10 h-full">
         <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"></div>
 
-        <div className="mb-8 flex justify-between items-center w-full right-timeline">
+        <div className="mb-8  sm:flex justify-between items-center w-full right-timeline">
           <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+          <div className=" hidden sm:block z-20  flex  items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
             <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
           </div>
-          <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+          <div className="order-1 bg-gray-400  rounded-lg shadow-xl sm:w-5/12 w-12/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 text-xl">
               Consulting Intern, Deloitte & Touché (2016-05 - 2016-06){" "}
             </h3>
@@ -32,14 +32,14 @@ function Experience() {
 
         <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
           <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto text-white font-semibold text-lg">2</h1>
+          <div className="z-20 flex hidden sm:block items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+            <h1 className="mx-auto  text-white font-semibold text-lg">2</h1>
           </div>
-          <div className="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+          <div className="order-1 bg-red-400 rounded-lg shadow-xl sm:w-5/12 w-12/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
               Finance Officer, Hollard Insurance Ltd (2018-09 - 2019-10)
             </h3>
-            <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+            <p className=" text-xs sm:text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
               • Captured over 6,500 Financial Transactions that was directed to
               Finance Department, to enable Department process transactions in
               timely manner.
@@ -53,10 +53,10 @@ function Experience() {
 
         <div className="mb-8 flex justify-between items-center w-full right-timeline">
           <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
+          <div className="z-20 flex items-center hidden sm:block order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+            <h1 className="mx-auto font-semibold  text-lg text-white">3</h1>
           </div>
-          <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+          <div className="order-1 bg-gray-400 rounded-lg shadow-xl sm:w-5/12 w-12/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 text-xl">
               Business Analyst, Absa Bank Ghana Ltd, (2019-11 - 2023-07)
             </h3>
@@ -78,10 +78,10 @@ function Experience() {
 
         <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
           <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+          <div className="z-20 flex items-center hidden sm:block order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
             <h1 className="mx-auto text-white font-semibold text-lg">4</h1>
           </div>
-          <div className="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+          <div className="order-1 bg-red-400 rounded-lg shadow-xl sm:w-5/12 w-12/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
               Technology Business Analyst Intern, Eniclic Ltd, (2023-03 -
               2023-07)
@@ -115,10 +115,10 @@ function Experience() {
 
           <div className="mb-8 flex justify-between items-center w-full right-timeline">
             <div className="order-1 w-5/12"></div>
-            <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+            <div className="z-20 flex items-center hidden sm:block order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
               <h1 className="mx-auto font-semibold text-lg text-white">6</h1>
             </div>
-            <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+            <div className="order-1 bg-gray-400 rounded-lg shadow-xl sm:w-5/12 w-12/12 px-6 py-4">
               <h3 className="mb-3 font-bold text-gray-800 text-xl">
               Product Manager, Cedar Design Ltd, (2023-03 – Current){" "}
               </h3>
