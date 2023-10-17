@@ -11,7 +11,7 @@ function Experience() {
         <div className="mb-8  sm:flex justify-between items-center w-full right-timeline">
           <div className="order-1 w-5/12"></div>
           <div className=" hidden sm:block z-20  flex  items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
+            <h1 className="mx-auto font-semibold text-lg ml-3  text-white">1</h1>
           </div>
           <div className="order-1 bg-gray-400  rounded-lg shadow-xl sm:w-5/12 w-12/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 text-xl">
@@ -33,7 +33,7 @@ function Experience() {
         <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
           <div className="order-1 w-5/12"></div>
           <div className="z-20 flex hidden sm:block items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto  text-white font-semibold text-lg">2</h1>
+            <h1 className="mx-auto  text-white ml-3  font-semibold text-lg">2</h1>
           </div>
           <div className="order-1 bg-red-400 rounded-lg shadow-xl sm:w-5/12 w-12/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
@@ -54,7 +54,7 @@ function Experience() {
         <div className="mb-8 flex justify-between items-center w-full right-timeline">
           <div className="order-1 w-5/12"></div>
           <div className="z-20 flex items-center hidden sm:block order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto font-semibold  text-lg text-white">3</h1>
+            <h1 className="mx-auto font-semibold ml-3  text-lg text-white">3</h1>
           </div>
           <div className="order-1 bg-gray-400 rounded-lg shadow-xl sm:w-5/12 w-12/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 text-xl">
@@ -79,7 +79,7 @@ function Experience() {
         <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
           <div className="order-1 w-5/12"></div>
           <div className="z-20 flex items-center hidden sm:block order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 className="mx-auto text-white font-semibold text-lg">4</h1>
+            <h1 className="mx-auto text-white ml-3  font-semibold text-lg">4</h1>
           </div>
           <div className="order-1 bg-red-400 rounded-lg shadow-xl sm:w-5/12 w-12/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white text-xl">
@@ -115,8 +115,8 @@ function Experience() {
 
           <div className="mb-8 flex justify-between items-center w-full right-timeline">
             <div className="order-1 w-5/12"></div>
-            <div className="z-20 flex items-center hidden sm:block order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-              <h1 className="mx-auto font-semibold text-lg text-white">6</h1>
+            <div className="z-20 flex  items-center hidden sm:block order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+              <h1 className="mx-auto ml-3 font-semibold text-lg text-white">6</h1>
             </div>
             <div className="order-1 bg-gray-400 rounded-lg shadow-xl sm:w-5/12 w-12/12 px-6 py-4">
               <h3 className="mb-3 font-bold text-gray-800 text-xl">
