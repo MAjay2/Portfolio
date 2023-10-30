@@ -35,7 +35,9 @@ export default function Contact() {
 
   };
   return (
-    <div className=" lg:flex py-20 lg:justify-between bg-neutral-900  w-full bg-secondary-dark px-6 sm:px-10 lg:px-[165px]">
+    <div className=" lg:flex py-20 lg:justify-between bg-neutral-900  w-full bg-secondary-dark px-6 sm:px-10 lg:px-[165px]"
+    id="form"
+    >
       <div className="text-center lg:text-left  sm:mx-auto max-w-[445px] h-[208px]">
         <h1 className="font-bold text-white lg:text-[88px] sm:text-[72px] text-[40px]">
           Contact

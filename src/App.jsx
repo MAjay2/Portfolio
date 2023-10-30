@@ -7,11 +7,13 @@ import { Route,Router } from 'react-router-dom/dist/umd/react-router-dom.develop
 import Experience from './components/Experience'
 
 
+
 function App() {
   
 
   return (
     <div className='  bg-black px-10  '>
+     <Header/>
      <MyInfo/>
      <h1 className='text-white mt-10 font-test text-bold text-[48px]'>Skills</h1>
      <Skills />
@@ -22,5 +24,6 @@ function App() {
     </div>
   )
 }
+import Header from './components/Header'
 
 export default App
