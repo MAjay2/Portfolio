@@ -63,6 +63,8 @@ export default function MyInfo() {
           className="w-[174px]   sm:h-[500px] sm:w-full"
           src="/steve.jpg"
           alt=""
+          data-aos="fade-left"
+          data-aos-duration="1500"
         />
       </div>
     </div>

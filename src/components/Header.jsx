@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <div className=" sm:flex items-center justify-between ">
       <div className="sm:flex items-center">
-      <h1 className="relative z-20 text-center text-[24px] sm:text-[32px] py-5 font-black font-test">
+      <h1 className="relative z-20 text-center text-[24px] text-white sm:text-[32px] py-5 font-black font-test">
       Steve Okyere Oduro-Amoyaw
       </h1>
       <FaLaptopCode className="hidden sm:block text-3xl ml-2  text-green-500"/>
