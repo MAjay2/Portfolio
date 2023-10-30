@@ -13,7 +13,10 @@ function Card({img,appName,languages,siteUrl,codeUrl}) {
   }
 
   return (
-    <div className='bg-black  mb-10'>
+    <div className='bg-black  mb-10'
+    data-aos="fade-right"
+    data-aos-duration="1500"
+    >
       <div
         className=' w-[345px] flex justify-center h-[253px] md:w-[540px] md:h-[400px] sm:w-[346px] sm:h-[253px]'
         style={{
